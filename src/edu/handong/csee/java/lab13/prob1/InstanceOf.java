@@ -1,6 +1,6 @@
 package edu.handong.csee.java.lab13.prob1;
 
-public class InstanceOf {
+public class InstanceOf {// declare a class to initiate method WhatFriend.
 	public static void WhatFriend(Friend friend) {// declare method to differentiate what kind of friend the class is.
 		if(friend instanceof ClassFriend) {// if the parameter friend is instance of ClassFriend,
 			((ClassFriend)friend).classFriend();// initiate method classFriend.
